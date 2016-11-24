@@ -232,6 +232,7 @@ public class DBWrapper {
         //System.out.println(builder.toString());
 
         MYSQLDriver.updateSQL(builder.toString());
+        System.out.println(builder.toString());
     }
 
     private static String createUpdateSQLStmt(String sql, Map<String, String> fields) {

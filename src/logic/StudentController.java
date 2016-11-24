@@ -69,11 +69,11 @@ public class StudentController extends UserController {
     /**
      * Metode som soft deleter et review, ved at sætte isDeleted kolonnen til 1.
      * I metoden bruges userId og reviewId til at specifere hvilket review der skal slettes.
-     * @param userId
+     * @param
      * @param reviewId
      * @return
      */
-    public boolean softDeleteReview(int userId, int reviewId) {
+    public boolean softDeleteReview(int reviewId) {
         boolean isSoftDeleted = true;
 
         try {
@@ -83,7 +83,7 @@ public class StudentController extends UserController {
 
             Map<String, String> params = new HashMap();
             params.put("id", String.valueOf(reviewId));
-            params.put("user_id", String.valueOf(userId));
+           // params.put("user_id", String.valueOf(userId));
 
             DBWrapper.updateRecords("review", isDeleted, params);
             return isSoftDeleted;

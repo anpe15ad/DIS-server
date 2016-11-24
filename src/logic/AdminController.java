@@ -157,7 +157,7 @@ public class AdminController extends UserController {
 
             }
         }
-
+//
                 //tjekker passwordet for tal og bogstaver, om det opfylder et normalt krav til et password
                 if ((password.matches(".*[a-zA-Z]+.*"))) {
                         try {

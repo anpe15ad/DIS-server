@@ -32,6 +32,7 @@ public class UserEndpoint {
         ArrayList<LectureDTO> lectures = userCtrl.getLectures(code);
 
         if (!lectures.isEmpty()) {
+            System.out.println("Returnerede lectures");
             return successResponse(200, lectures);
         } else {
             return errorResponse(404, "Failed. Couldn't get lectures.");
@@ -127,9 +128,10 @@ public class UserEndpoint {
         Gson gson = new Gson();
         UserDTO user = new Gson().fromJson(data, UserDTO.class);
         UserController userCtrl = new UserController();
+        String hashed = Digester.hashWithSalt(user.getPassword());
 
         if (user != null) {
-            UserDTO foo =  userCtrl.login(user.getCbsMail(), user.getPassword());
+            UserDTO foo =  userCtrl.login(user.getCbsMail(), hashed);
             return successResponse(200,foo);
         } else {
             return errorResponse(401, "Couldn't login. Try again!");
@@ -157,7 +159,7 @@ public class UserEndpoint {
     protected Response successResponse(int status, Object data) {
         Gson gson = new Gson();
 
-        return Response.status(status).entity(Digester.encrypt(gson.toJson(data))).build();
-        //return Response.status(status).entity(gson.toJson(data)).header("Access-Control-Allow-Origin", "*").build();
+        //return Response.status(status).entity(Digester.encrypt(gson.toJson(data))).build();
+        return Response.status(status).entity(gson.toJson(data)).header("Access-Control-Allow-Origin", "*").build();
     }
 }

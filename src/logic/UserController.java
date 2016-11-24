@@ -1,5 +1,6 @@
 package logic;
 
+import jdk.nashorn.internal.objects.annotations.Where;
 import shared.LectureDTO;
 import shared.Logging;
 import shared.ReviewDTO;
@@ -189,6 +190,7 @@ public class UserController {
 
             if(userId != 0) {
                 whereParams.put("user_id", String.valueOf(userId));
+                whereParams.put("id", String.valueOf(reviewId));
             }
 
             whereParams.put("id", String.valueOf(reviewId));
