@@ -122,6 +122,7 @@ public class UserEndpoint {
     @Consumes("application/json")
     @Path("/login")
     public Response login(String data) {
+       // String decrypted = Digester.decrypt(data);
 
         Gson gson = new Gson();
         UserDTO user = new Gson().fromJson(data, UserDTO.class);
@@ -156,7 +157,7 @@ public class UserEndpoint {
     protected Response successResponse(int status, Object data) {
         Gson gson = new Gson();
 
-        //return Response.status(status).entity(gson.toJson(Digester.encrypt(gson.toJson(data)))).build();
-        return Response.status(status).entity(gson.toJson(data)).header("Access-Control-Allow-Origin", "*").build();
+        return Response.status(status).entity(Digester.encrypt(gson.toJson(data))).build();
+        //return Response.status(status).entity(gson.toJson(data)).header("Access-Control-Allow-Origin", "*").build();
     }
 }

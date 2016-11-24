@@ -22,6 +22,8 @@ public class StudentEndpoint extends UserEndpoint {
     @Consumes("applications/json")
     @Path("/review/{userId}")
     public Response getReviews(@PathParam("userId") int userId) {
+
+
         UserController userCtrl = new UserController();
         ArrayList<ReviewDTO> reviews = userCtrl.getReviewsUser(userId);
 
