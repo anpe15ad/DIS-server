@@ -5,6 +5,7 @@ import shared.LectureDTO;
 import shared.ReviewDTO;
 import shared.TeacherDTO;
 
+import javax.sql.rowset.CachedRowSet;
 import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
@@ -97,5 +98,27 @@ public class TeacherController extends UserController {
             isSoftDeleted = false;
         }
         return isSoftDeleted;
+    }
+
+    public int getCourseParticipants(int courseId) {
+
+        //Forbered MySQL statement
+        String table = "course_attendant";
+        Map<String, String> whereStmt = new HashMap<String, String>();
+        whereStmt.put("course_id", String.valueOf(courseId));
+        CachedRowSet rs = null;
+        int courseAttendants = 0;
+
+        //Query courseattendant og find samtlige instanser af det courseID
+        try {
+            rs = DBWrapper.getRecords(table, null, whereStmt, null, 0);
+            courseAttendants = rs.size();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return courseAttendants;
+
     }
 }

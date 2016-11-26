@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ee08d7d-56c9-4908-acb5-a7687d28e360" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/logic/AdminController.class" afterPath="$PROJECT_DIR$/target/classes/logic/AdminController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/logic/StudentController.class" afterPath="$PROJECT_DIR$/target/classes/logic/StudentController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/logic/TeacherController.class" afterPath="$PROJECT_DIR$/target/classes/logic/TeacherController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/TUIMainMenu.class" afterPath="$PROJECT_DIR$/target/classes/view/TUIMainMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/endpoints/StudentEndpoint.class" afterPath="$PROJECT_DIR$/target/classes/view/endpoints/StudentEndpoint.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/endpoints/TeacherEndpoint.class" afterPath="$PROJECT_DIR$/target/classes/view/endpoints/TeacherEndpoint.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/endpoints/UserEndpoint.class" afterPath="$PROJECT_DIR$/target/classes/view/endpoints/UserEndpoint.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logic/AdminController.java" afterPath="$PROJECT_DIR$/src/logic/AdminController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logic/StudentController.java" afterPath="$PROJECT_DIR$/src/logic/StudentController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logic/TeacherController.java" afterPath="$PROJECT_DIR$/src/logic/TeacherController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/TUIMainMenu.java" afterPath="$PROJECT_DIR$/src/view/TUIMainMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/endpoints/StudentEndpoint.java" afterPath="$PROJECT_DIR$/src/view/endpoints/StudentEndpoint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/endpoints/TeacherEndpoint.java" afterPath="$PROJECT_DIR$/src/view/endpoints/TeacherEndpoint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/endpoints/UserEndpoint.java" afterPath="$PROJECT_DIR$/src/view/endpoints/UserEndpoint.java" />
     </list>
     <ignored path="Undervisningsevaluering _server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,9 +51,11 @@
       <file leaf-file-name="TeacherController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/logic/TeacherController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-64">
-              <caret line="43" column="61" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
-              <folding />
+            <state relative-caret-position="416">
+              <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+              <folding>
+                <element signature="e#3012#3028#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -782,7 +771,7 @@
       <workItem from="1479999150783" duration="469000" />
       <workItem from="1479999637026" duration="1218000" />
       <workItem from="1480149080101" duration="7809000" />
-      <workItem from="1480162184092" duration="788000" />
+      <workItem from="1480162184092" duration="901000" />
     </task>
     <task id="LOCAL-00001" summary="Server sender krypteret data tilbage, men modtager ikke krypteret.">
       <created>1479976043728</created>
@@ -798,11 +787,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479997880123</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Beregning af gennemsnit for et kursus. (Course)">
+      <created>1480163088039</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1480163088039</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29429000" />
+    <option name="totallyTimeSpent" value="29542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -850,7 +846,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Server sender krypteret data tilbage, men modtager ikke krypteret." />
     <MESSAGE value="Modtager hashed password og hasher passwordet 2. gang." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modtager hashed password og hasher passwordet 2. gang." />
+    <MESSAGE value="Beregning af gennemsnit for et kursus. (Course)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Beregning af gennemsnit for et kursus. (Course)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1286,9 +1283,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/logic/TeacherController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
-          <caret line="43" column="61" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
-          <folding />
+        <state relative-caret-position="416">
+          <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+          <folding>
+            <element signature="e#3012#3028#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
