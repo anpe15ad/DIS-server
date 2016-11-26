@@ -21,11 +21,15 @@ public class StudentEndpoint extends UserEndpoint {
     @GET
     @Consumes("applications/json")
     @Path("/review/{userId}")
-    public Response getReviews(@PathParam("userId") int userId) {
+    public Response getReviews(@PathParam("userId") String userId) {
+
+        String decrypted = Digester.decrypt(userId);
+
+        int userDecrypted = Integer.valueOf(decrypted);
         System.out.println(userId + " fandt endpoint review/userid");
 
         UserController userCtrl = new UserController();
-        ArrayList<ReviewDTO> reviews = userCtrl.getReviewsUser(userId);
+        ArrayList<ReviewDTO> reviews = userCtrl.getReviewsUser(userDecrypted);
 
         if (!reviews.isEmpty()) {
             System.out.println("Hentede review for user specifik id");
@@ -42,8 +46,7 @@ public class StudentEndpoint extends UserEndpoint {
     public Response addReview(String json) {
 
         Gson gson = new Gson();
-
-        ReviewDTO review = new Gson().fromJson(json, ReviewDTO.class);
+        ReviewDTO review = new Gson().fromJson(Digester.decrypt(json), ReviewDTO.class);
 
         StudentController studentCtrl = new StudentController();
         boolean isAdded = studentCtrl.addReview(review);
@@ -66,13 +69,19 @@ public class StudentEndpoint extends UserEndpoint {
     @DELETE
     @Consumes("application/json")
     @Path("/review/{reviewId}/{userId}")
-    public Response deleteReview(@PathParam("reviewId") int reviewId, @PathParam("userId") int userId) {
+    public Response deleteReview(@PathParam("reviewId") String reviewId, @PathParam("userId") String userId) {
         Gson gson = new Gson();
+        String rdid = Digester.decrypt(reviewId);
+        String kef = Digester.decrypt(userId);
+
+        int reviewdecrypted = Integer.valueOf(rdid);
+        int userDecrypted = Integer.valueOf(kef);
+
 
       //  ReviewDTO review = gson.fromJson(data, ReviewDTO.class);
         StudentController studentCtrl = new StudentController();
 
-        boolean isDeleted = studentCtrl.softDeleteReview(userId,reviewId);
+        boolean isDeleted = studentCtrl.softDeleteReview(userDecrypted,reviewdecrypted);
 
         if (isDeleted) {
            // String toJson = gson.toJson(Digester.encrypt(gson.toJson(isDeleted)));

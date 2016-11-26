@@ -28,8 +28,11 @@ public class UserEndpoint {
     @Produces("applications/json")
     @Path("/lecture/{code}")
     public Response getLectures(@PathParam("code") String code) {
+
+        String encrypted = Digester.decrypt(code);
+
         UserController userCtrl = new UserController();
-        ArrayList<LectureDTO> lectures = userCtrl.getLectures(code);
+        ArrayList<LectureDTO> lectures = userCtrl.getLectures(encrypted);
 
         if (!lectures.isEmpty()) {
             System.out.println("Returnerede lectures");
@@ -43,9 +46,10 @@ public class UserEndpoint {
     @Path("/study/{shortname}")
     public Response getStudy(@PathParam("shortname") String shortname) {
 
+        String decrypted = Digester.decrypt(shortname);
         Gson gson = new Gson();
         UserController userCtrl = new UserController();
-        ArrayList<StudyDTO> studies = userCtrl.getStudies(shortname);
+        ArrayList<StudyDTO> studies = userCtrl.getStudies(decrypted);
 
         if (!studies.isEmpty()) {
             return successResponse(200, studies);
@@ -63,11 +67,13 @@ public class UserEndpoint {
      */
     @GET
     @Path("/course/{userId}")
-    public Response getCourses(@PathParam("userId") int userId) {
+    public Response getCourses(@PathParam("userId") String userId) {
 
+        String encrypted = Digester.decrypt(userId);
+        int intet = Integer.valueOf(encrypted);
         Gson gson = new Gson();
         UserController userCtrl = new UserController();
-        ArrayList<CourseDTO> courses = userCtrl.getCourses(userId);
+        ArrayList<CourseDTO> courses = userCtrl.getCourses(intet);
 
         if (!courses.isEmpty()) {
             return successResponse(200, courses);
@@ -84,9 +90,13 @@ public class UserEndpoint {
     @GET
     @Consumes("applications/json")
     @Path("/review/{lectureId}")
-    public Response getReviews(@PathParam("lectureId") int lectureId) {
+    public Response getReviews(@PathParam("lectureId") String lectureId) {
+
+        String encrypted = Digester.decrypt(lectureId);
+        int intet = Integer.valueOf(encrypted);
+
         UserController userCtrl = new UserController();
-        ArrayList<ReviewDTO> reviews = userCtrl.getReviews(lectureId);
+        ArrayList<ReviewDTO> reviews = userCtrl.getReviews(intet);
 
         if (!reviews.isEmpty()) {
             System.out.println("returnede reviews fra UserEndPoint");
@@ -124,10 +134,10 @@ public class UserEndpoint {
     @Consumes("application/json")
     @Path("/login")
     public Response login(String data) {
-       // String decrypted = Digester.decrypt(data);
+        String decrypted = Digester.decrypt(data);
 
         Gson gson = new Gson();
-        UserDTO user = new Gson().fromJson(data, UserDTO.class);
+        UserDTO user = new Gson().fromJson(decrypted, UserDTO.class);
         UserController userCtrl = new UserController();
         String hashed = Digester.hashWithSalt(user.getPassword());
 
@@ -147,8 +157,8 @@ public class UserEndpoint {
      */
     protected Response errorResponse(int status, String message) {
 
-        //return Response.status(status).entity(new Gson().toJson(Digester.encrypt("{\"message\": \"" + message + "\"}"))).build();
-        return Response.status(status).entity(new Gson().toJson("{\"message\": \"" + message + "\"}")).build();
+        return Response.status(status).entity(new Gson().toJson(Digester.encrypt("{\"message\": \"" + message + "\"}"))).build();
+        //return Response.status(status).entity(new Gson().toJson("{\"message\": \"" + message + "\"}")).build();
     }
 
     /**
@@ -160,7 +170,7 @@ public class UserEndpoint {
     protected Response successResponse(int status, Object data) {
         Gson gson = new Gson();
 
-        //return Response.status(status).entity(Digester.encrypt(gson.toJson(data))).build();
-        return Response.status(status).entity(gson.toJson(data)).header("Access-Control-Allow-Origin", "*").build();
+        return Response.status(status).entity(Digester.encrypt(gson.toJson(data))).build();
+        //return Response.status(status).entity(gson.toJson(data)).header("Access-Control-Allow-Origin", "*").build();
     }
 }

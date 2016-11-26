@@ -100,6 +100,11 @@ public class TeacherController extends UserController {
         return isSoftDeleted;
     }
 
+    /**
+     * Henter antallet brugere der er tilknyttet et courseId
+     * @param courseId som bliver fundet deltagelse for.
+     * @return
+     */
     public int getCourseParticipants(int courseId) {
 
         //Forbered MySQL statement
