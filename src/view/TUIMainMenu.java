@@ -2,6 +2,7 @@ package view;
 
 import logic.AdminController;
 import logic.MainController;
+import logic.TeacherController;
 import security.Digester;
 import shared.AdminDTO;
 import shared.UserDTO;
@@ -29,6 +30,7 @@ public class TUIMainMenu {
         String mail="";
         String password = "";
         try {
+
             System.out.println("Velkommen til Undervisningsevaluering for CBS administratorer!");
             System.out.println("Tast 0 for at stoppe programmet");
             System.out.println("Tast 1 for og Logge ind som admin");

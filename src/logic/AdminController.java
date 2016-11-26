@@ -226,20 +226,20 @@ public class AdminController extends UserController {
 
     }
 
-    public ArrayList<CourseDTO> getCourseStudy(int idStudyChoice){
+    public ArrayList<CourseDTO> getCourseStudy(int studyId){
         ArrayList<CourseDTO> courses = new ArrayList<CourseDTO>();
 
         try {
             Map<String, String> params = new HashMap();
 
-            params.put("study_id", String.valueOf(idStudyChoice));
+            params.put("study_id", String.valueOf(studyId));
             String[] attributes = new String[]{"name", "code", "id"};
 
             ResultSet rs = DBWrapper.getRecords("course", attributes, params, null, 0);
 
             while (rs.next()) {
                 CourseDTO courses1 = new CourseDTO();
-                //courses1.setId(rs.getInt("id"));
+                courses1.setId(rs.getString("id"));
                 courses1.setCode(rs.getString("code"));
                 courses1.setDisplaytext(rs.getString("name"));
 

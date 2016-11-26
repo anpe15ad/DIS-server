@@ -89,6 +89,7 @@ public class UserEndpoint {
         ArrayList<ReviewDTO> reviews = userCtrl.getReviews(lectureId);
 
         if (!reviews.isEmpty()) {
+            System.out.println("returnede reviews fra UserEndPoint");
             return successResponse(200, reviews);
         } else {
             return errorResponse(404, "Failed. Couldn't get reviews.");
