@@ -49,7 +49,6 @@ public class TeacherEndpoint extends UserEndpoint {
     public Response average(@PathParam("code") String code) {
         String codeDecrypted = Digester.decrypt(code);
 
-        System.out.println("Ramte endpointed /teacher/average/{code}");
         TeacherController teacherController = new TeacherController();
         double average = 0;
         average = teacherController.calculateAverageRatingOnCourse(codeDecrypted,average);
@@ -62,5 +61,28 @@ public class TeacherEndpoint extends UserEndpoint {
             return errorResponse(404, "Failed. Couldn't get lectures.");
         }
     }
+
+    @GET
+    @Consumes("applications/json")
+    @Produces("applications/json")
+    @Path("/participents/{courseId}")
+    public Response participents(@PathParam("courseId") String courseId) {
+        String codeDecrypted = Digester.decrypt(courseId);
+        int course = Integer.valueOf(codeDecrypted);
+
+        TeacherController teacherController = new TeacherController();
+
+         int participants = teacherController.getCourseParticipants(course);
+
+        if (participants != 0) {
+            String returnIt = String.valueOf(participants);
+            System.out.println("Returnerede average for et kursus: "+ returnIt);
+            return successResponse(200, returnIt);
+        } else {
+            return errorResponse(404, "Failed. Couldn't get lectures.");
+        }
+    }
+
+
 
 }

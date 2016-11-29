@@ -225,6 +225,7 @@ public class UserController {
 
                 course.setDisplaytext(rs.getString("name"));
                 course.setCode(rs.getString("code"));
+                course.setId(rs.getString("id"));
                 courses.add(course);
             }
         } catch (SQLException e) {

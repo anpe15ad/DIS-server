@@ -40,14 +40,14 @@ public class AdminController extends UserController {
         /**
          * Dette er en foreach løkke som printer alle lectures ud med tilhørende id
          **/
-        for (CourseDTO courseDTO : getCourses(idStudyChoice)) {
+        for (CourseDTO courseDTO : getCourses()) {
             System.out.println("Id: " + courseDTO.getDisplaytext() + " - Name: " + courseDTO.getCode());
         }
                 /**
                  * Her kaldes tuiAdminMenuen, som spørger admin efter et id på den Course admin ønsker og se tilhørende lectures til
                  */
                 Scanner input2 = new Scanner(System.in);
-                System.out.println("Indtast id for ønskede kursus: ");
+                System.out.println("Indtast id for ønskede kursus: eks. BINTO1051U_LA_E16 ");
                 String idCourseChoice = input2.nextLine();
 
                 /**
@@ -58,7 +58,7 @@ public class AdminController extends UserController {
                     System.out.println("id: " + lectureDTO.getId() + " " + lectureDTO.getDescription() + " - " + lectureDTO.getType());
                 }
 
-                System.out.println("Indtast id for ønskede lecture: ");
+                System.out.println("Indtast id for ønskede lecture: eks. 4895 ");
                 Scanner input3 = new Scanner(System.in);
                 int idLectureChoice = input3.nextInt();
 
@@ -68,7 +68,6 @@ public class AdminController extends UserController {
                  */
                 for (ReviewDTO reviewDTO : getReviews(idLectureChoice)) {
                     System.out.println("id: " + reviewDTO.getId() + " - Rating: " + reviewDTO.getRating() + " - Comment: " + reviewDTO.getComment() + " - Soft delete: " + reviewDTO.isDeleted());
-
                 }
 
                 System.out.println("Indtast id for ønskede review der skal slettes: ");
@@ -313,7 +312,7 @@ public class AdminController extends UserController {
 
                 course.setDisplaytext(rs.getString("name"));
                 course.setCode(rs.getString("code"));
-                //course.setId(rs.getInt("id"));
+                course.setId(rs.getString("id"));
                 courses.add(course);
             }
         } catch (SQLException e) {
@@ -331,7 +330,7 @@ public class AdminController extends UserController {
             Map<String, String> params = new HashMap();
 
             params.put("course_id", String.valueOf(course));
-            String[] attributes = new String[]{"description", "type", "id"};
+            String[] attributes = new String[]{"description", "type", "id","start"};
 
             ResultSet rs = DBWrapper.getRecords("lecture", attributes, params, null, 0);
 
@@ -389,12 +388,8 @@ public class AdminController extends UserController {
     private ArrayList<StudyDTO> getStudies() {
 
         ArrayList<StudyDTO> studies = new ArrayList<StudyDTO>();
-
         try {
-
-
             ResultSet rs = DBWrapper.getRecords("study", null, null, null, 0);
-
 
             while (rs.next()) {
                 StudyDTO study = new StudyDTO();

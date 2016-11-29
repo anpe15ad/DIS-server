@@ -5,6 +5,7 @@ import com.sun.net.httpserver.HttpServer;
 import java.io.IOException;
 
 
+import logic.CBSParser;
 import logic.ConfigLoader;
 import shared.AdminDTO;
 import shared.Logging;
@@ -52,7 +53,7 @@ public class Run {
 
 
         try {
-            // CBSParser.parseCBSData();
+           // CBSParser.parseCBSData();
         } catch (Exception e) {
             System.out.println(e);
         }

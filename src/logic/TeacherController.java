@@ -10,6 +10,10 @@ import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Klassen er udarbejdet til hackathon
+ */
+
 public class TeacherController extends UserController {
 
     private TeacherDTO currentTeacher;
@@ -106,13 +110,13 @@ public class TeacherController extends UserController {
      * @return
      */
     public int getCourseParticipants(int courseId) {
-
         //Forbered MySQL statement
         String table = "course_attendant";
         Map<String, String> whereStmt = new HashMap<String, String>();
         whereStmt.put("course_id", String.valueOf(courseId));
         CachedRowSet rs = null;
         int courseAttendants = 0;
+
 
         //Query courseattendant og find samtlige instanser af det courseID
         try {
@@ -123,6 +127,7 @@ public class TeacherController extends UserController {
             e.printStackTrace();
         }
 
+        System.out.println("kursus deltagere: "+courseAttendants);
         return courseAttendants;
 
     }
