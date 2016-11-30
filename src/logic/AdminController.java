@@ -202,11 +202,11 @@ public class AdminController extends UserController {
             System.out.println("id: " + studyDTO.getId() + " - forkortelse: " + studyDTO.getShortname() + " - name: " + studyDTO.getName() );
         }
 
-        Scanner input1 = new Scanner(System.in);
-        System.out.println("Indtast id for det studie brugeren skal tilknyttet: ");
-        int idStudyChoice = input1.nextInt();
+        Scanner inputStudy = new Scanner(System.in);
+        System.out.println("Indtast id for det studie brugeren skal tilknyttet: eks. 94 ");
+        int idStudyChoice = inputStudy.nextInt();
 
-        for (CourseDTO courseDTO : getCourseStudy(idStudyChoice)) {
+        for (CourseDTO courseDTO : getCourseStudy(idStudyChoice)) { //idStudychoice = 94
             System.out.println("Id: " + courseDTO.getId() + " - Name: " + courseDTO.getCode() + " " + courseDTO.getDisplaytext());
         }
 
@@ -214,7 +214,7 @@ public class AdminController extends UserController {
          * Her kaldes tuiAdminMenuen, som spørger admin efter et id på den Course admin ønsker og se tilhørende lectures til
          */
         Scanner input2 = new Scanner(System.in);
-        System.out.println("Indtast id for ønskede kursus brugeren skal tildeles: ");
+        System.out.println("Indtast id for ønskede kursus brugeren skal tildeles: (courseId) eks. 477");
         int idCourseChoice = input2.nextInt();
 
         setUserCourse(idCourseChoice, idUserChoice);

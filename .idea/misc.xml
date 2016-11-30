@@ -23,6 +23,36 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
+  <component name="UMLDiagramComponent">
+    <diagram name="UML for server">
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="Run" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="dal.MYSQLDriver" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="logic.CBSParser" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="logic.ConfigLoader" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="logic.MainController" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="logic.UserController" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="logic.AdminController" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="logic.StudentController" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="logic.TeacherController" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="security.Digester" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="service.DBWrapper" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="shared.Logging" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="shared.UserDTO" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="shared.AdminDTO" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="shared.StudyDTO" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="shared.CourseDTO" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="shared.ReviewDTO" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="shared.LectureDTO" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="shared.StudentDTO" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="shared.TeacherDTO" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="view.TUIMainMenu" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="view.TUIAdminMenu" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="view.endpoints.UserEndpoint" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="view.endpoints.StudentEndpoint" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="view.endpoints.TeacherEndpoint" />
+      <compartment-visibility />
+    </diagram>
+  </component>
   <component name="masterDetails">
     <states>
       <state key="ProjectJDKs.UI">
