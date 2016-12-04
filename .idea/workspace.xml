@@ -28,11 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TeacherEndpoint.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TeacherEndpoint.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/endpoints/TeacherEndpoint.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="423">
               <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -267,16 +277,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="795">
               <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentEndpoint.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/endpoints/StudentEndpoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -1077,7 +1077,7 @@
       <workItem from="1480409453664" duration="5061000" />
       <workItem from="1480500301475" duration="1260000" />
       <workItem from="1480504664067" duration="2086000" />
-      <workItem from="1480844382295" duration="24000" />
+      <workItem from="1480844382295" duration="71000" />
     </task>
     <task id="LOCAL-00001" summary="Server sender krypteret data tilbage, men modtager ikke krypteret.">
       <created>1479976043728</created>
@@ -1128,15 +1128,22 @@
       <option name="project" value="LOCAL" />
       <updated>1480505857864</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Klasse diagram med png fil">
+      <created>1480844419763</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1480844419763</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54362000" />
+    <option name="totallyTimeSpent" value="54409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1190,7 +1197,8 @@
     <MESSAGE value="Alt kommunikation foregår krypteret både til og fra klienten.&#10;&#10;onAverageOnCourse virker, mangler at vise hvormange der deltager." />
     <MESSAGE value="Det sidste endpoint for teacher, til at se antal deltagere, og beregning af gennemsnit for et kursus end point og Controller virker.&#10;&#10;average endpoint returner en krypteret string af gennemsnittet, på samme måde returnere participents endpoint en String af antallet af deltagere." />
     <MESSAGE value="Klasse diagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="Klasse diagram" />
+    <MESSAGE value="Klasse diagram med png fil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Klasse diagram med png fil" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1402,14 +1410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1839,6 +1839,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding />
         </state>
       </provider>
