@@ -12,10 +12,17 @@ import javax.ws.rs.core.Response;
 import java.util.ArrayList;
 
 /**
- * Created by Kasper on 19/10/2016.
+ * Denne klasse er endpoint for underviser (teacher) med de metoder der er unik for en underviser.
  */
 @Path("/api/teacher")
 public class TeacherEndpoint extends UserEndpoint {
+
+    /**
+     * hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
+     * Denne metode soft deleter en kommentar
+     * @param reviewId det review id den sletter for.
+     * @return returnere en boolean som en String.
+     */
     @DELETE
     @Consumes("application/json")
     @Path("/review/{reviewId}")
@@ -42,6 +49,11 @@ public class TeacherEndpoint extends UserEndpoint {
         }
     }
 
+    /**
+     * Dette endpoint returnere et gennemsnitet for et kursus.
+     * @param code for det kursus der bliver lavet gennemsnit for.
+     * @return returnere en String med gennemsnittet for kurset.
+     */
     @GET
     @Consumes("applications/json")
     @Produces("applications/json")
@@ -62,6 +74,11 @@ public class TeacherEndpoint extends UserEndpoint {
         }
     }
 
+    /**
+     * Dette endpoint sender antallet af deltagere til et kursus tilbage til klienten som en String.
+     * @param courseId som den finder antallet af kursus deltagere ud fra.
+     * @return returnere en string af antallet af deltagere.
+     */
     @GET
     @Consumes("applications/json")
     @Produces("applications/json")

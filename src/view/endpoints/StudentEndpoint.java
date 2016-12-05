@@ -18,6 +18,12 @@ import java.util.ArrayList;
 @Path("/api/student")
 public class StudentEndpoint extends UserEndpoint {
 
+    /**
+     * hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
+     * Dette endpoint returnere reviews i et ArrayList for den bruger userId er.
+     * @param userId tager userId for den bruger, der er logget ind.
+     * @return returnere Arraylist af reviews.
+     */
     @GET
     @Consumes("applications/json")
     @Path("/review/{userId}")
@@ -40,6 +46,12 @@ public class StudentEndpoint extends UserEndpoint {
         }
     }
 
+    /**
+     * hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
+     * Dette endpoint modtager oplysninger om at
+     * @param json den parameter om det review der skal oprettes.
+     * @return returnere en String af en boolean om det er slettet
+     */
     @POST
     @Consumes("application/json")
     @Path("/review")
@@ -66,11 +78,20 @@ public class StudentEndpoint extends UserEndpoint {
         }
     }
 
+    /**
+     * Dette endpoint er hvor server modtager request om at slette et review.
+     * @param reviewId identifikator for hvilket review der skal slettes
+     * @param userId sikre at det er den samme bruger der har oprettet som ønkser at slette reviewet.
+     * @return returnere en string af en boolean om det er slettet.
+     */
     @DELETE
     @Consumes("application/json")
     @Path("/review/{reviewId}/{userId}")
     public Response deleteReview(@PathParam("reviewId") String reviewId, @PathParam("userId") String userId) {
         Gson gson = new Gson();
+        /**
+         * Disse 2 string navne giver ikke mening de skal kun være her for at dekryptere det modtagne data.
+         */
         String rdid = Digester.decrypt(reviewId);
         String kef = Digester.decrypt(userId);
 

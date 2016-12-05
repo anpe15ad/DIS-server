@@ -11,6 +11,7 @@ import java.util.Map;
 
 /**
  * Created by Kasper on 17/10/2016.
+ * Hele klassen er hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
  */
 public class DBWrapper {
 

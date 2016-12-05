@@ -5,7 +5,9 @@ import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-//TODO: Needs proper comments1231231
+/**
+ * Hele klassen er hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
+ */
 public class Logging {
 
     /**

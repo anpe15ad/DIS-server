@@ -4,6 +4,7 @@ package shared;
  * Created by andershoumann on 28/10/2016.
  *
  * StudyDTO klassen der opretter getter og setters for alle de variable der skal bruges for en user.
+ * Hele klassen er hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
  */
 
 public class StudyDTO {

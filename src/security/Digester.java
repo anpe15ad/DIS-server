@@ -7,10 +7,11 @@ import sun.misc.BASE64Encoder;
 import java.io.IOException;
 import java.security.MessageDigest;
 
-//TODO: Comments and documentation needed.
+/**
+ * Hele klassen er hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
+ */
 public class Digester {
 
-    //TODO: Set SALT and KEY in config-file.
     private final static String SALT = ConfigLoader.HASH_SALT;
     private final static String KEY = ConfigLoader.ENCRYPT_KEY;
     private static MessageDigest digester;

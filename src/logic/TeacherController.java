@@ -11,6 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
  * Klassen er udarbejdet til hackathon
  */
 

@@ -17,6 +17,7 @@ import java.io.PrintStream;
 
 /**
  * klasse der indeholder main metoden der starter serveren.
+ * Hele klassen er hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
  */
 public class Run {
 

@@ -11,6 +11,7 @@ import java.sql.SQLException;
 
 /**
  * Created by Kasper on 17/10/2016.
+ * Hele klassen er hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
  */
 public class MYSQLDriver {
     private static Connection dbConnection = null;

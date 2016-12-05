@@ -18,6 +18,10 @@ import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
+ * Denne klasse har alle metoderne for brugerne.
+ */
 public class UserController {
 
     public static void main(String[] args) {
@@ -28,6 +32,12 @@ public class UserController {
     public UserController() {
     }
 
+    /**
+     * Login metoden
+     * @param cbs_email det login credential metoden tager.
+     * @param password det loging password metoden tager.
+     * @return en UserDTO af brugeren.
+     */
     public UserDTO login(String cbs_email, String password) {
 
         UserDTO user = new UserDTO();
@@ -55,6 +65,11 @@ public class UserController {
         return null;
     }
 
+    /**
+     * henter studier for et shortname f.eks. BINTO1056E16
+     * @param shortname det parameter metoden tager.
+     * @return returnere en arraylist af studier
+     */
     public ArrayList<StudyDTO> getStudies(String shortname) {
 
         ArrayList<StudyDTO> studies = new ArrayList<StudyDTO>();
@@ -82,7 +97,12 @@ public class UserController {
         return studies;
     }
 
-
+    /**
+     * hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
+     * Henter alle reviews
+     * @param lectureId ud fra det lecture id brugeren oplyser.
+     * @return returnere en arrayliste af reviews.
+     */
     public ArrayList<ReviewDTO> getReviews(int lectureId) {
 
         ArrayList<ReviewDTO> reviews = new ArrayList<ReviewDTO>();
@@ -113,6 +133,13 @@ public class UserController {
         return reviews;
     }
 
+
+    /**
+     * hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
+     * Henter reviews som en bruger har oprettet.
+     * @param userId tager userId for den bruger der har oprettet reviews
+     * @return returnere en arraylist af reviews.
+     */
     public ArrayList<ReviewDTO> getReviewsUser(int userId) {
 
         ArrayList<ReviewDTO> reviews = new ArrayList<ReviewDTO>();
@@ -142,6 +169,13 @@ public class UserController {
         }
         return reviews;
     }
+
+    /**
+     * hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
+     * Henter lectures
+     * @param code ud fra en code som bruger har oplyst
+     * @return returnere en Arraylist af lectures.
+     */
     public ArrayList<LectureDTO> getLectures(String code) {
 
         ArrayList<LectureDTO> lectures = new ArrayList<LectureDTO>();
@@ -178,6 +212,13 @@ public class UserController {
 
 
     //Metode der softdeleter et review fra databasen - skal ind i AdminControlleren, da dette er moden for at slette et review uafhængigt af brugertype.
+
+    /**
+     * sletter et review ved at sætte isDeleted = 1
+     * @param userId tager det userId som brugeren er logget ind som
+     * @param reviewId tager det review id der skal slettes
+     * @return returnere en boolean om den er slettet.
+     */
     public boolean softDeleteReview(int userId, int reviewId) {
         boolean isSoftDeleted = true;
 
@@ -206,6 +247,12 @@ public class UserController {
         return isSoftDeleted;
     }
 
+    /**
+     * hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
+     * Henter kurser
+     * @param userId ud fra det user id som brugeren har.
+     * @return returnere en arraylist af kurser.
+     */
     public ArrayList<CourseDTO> getCourses(int userId) {
 
         ArrayList<CourseDTO> courses = new ArrayList<CourseDTO>();

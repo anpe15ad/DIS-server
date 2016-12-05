@@ -16,6 +16,7 @@ import java.sql.SQLException;
 import java.util.*;
 
 /**
+ * Hele klassen er hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
  * Created by Kasper on 15/10/2016.
  * En klasse hvis overordnede formål er, at indlæse data i Json format, og sørge for, at data bliver omdannet til
  * java objekter, som efterfølgende bliver oprettet i databasen ved hjælp af DBWrapper-klassen.

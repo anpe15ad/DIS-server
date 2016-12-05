@@ -13,6 +13,7 @@ import java.util.Scanner;
 
 /**
  * TUIMainMenu er til den første menu som admin ser inden der logges ind.
+ * Hele klassen er hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
  **/
 public class TUIMainMenu {
 

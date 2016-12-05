@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ee08d7d-56c9-4908-acb5-a7687d28e360" name="Default" comment="">
+    <list default="true" id="8ee08d7d-56c9-4908-acb5-a7687d28e360" name="Default" comment="Klasse diagram med png fil">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Run.java" afterPath="$PROJECT_DIR$/src/Run.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dal/MYSQLDriver.java" afterPath="$PROJECT_DIR$/src/dal/MYSQLDriver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logic/AdminController.java" afterPath="$PROJECT_DIR$/src/logic/AdminController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logic/CBSParser.java" afterPath="$PROJECT_DIR$/src/logic/CBSParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logic/ConfigLoader.java" afterPath="$PROJECT_DIR$/src/logic/ConfigLoader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logic/MainController.java" afterPath="$PROJECT_DIR$/src/logic/MainController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logic/StudentController.java" afterPath="$PROJECT_DIR$/src/logic/StudentController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logic/TeacherController.java" afterPath="$PROJECT_DIR$/src/logic/TeacherController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logic/UserController.java" afterPath="$PROJECT_DIR$/src/logic/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/security/Digester.java" afterPath="$PROJECT_DIR$/src/security/Digester.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/DBWrapper.java" afterPath="$PROJECT_DIR$/src/service/DBWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shared/AdminDTO.java" afterPath="$PROJECT_DIR$/src/shared/AdminDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shared/CourseDTO.java" afterPath="$PROJECT_DIR$/src/shared/CourseDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shared/LectureDTO.java" afterPath="$PROJECT_DIR$/src/shared/LectureDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shared/Logging.java" afterPath="$PROJECT_DIR$/src/shared/Logging.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shared/ReviewDTO.java" afterPath="$PROJECT_DIR$/src/shared/ReviewDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shared/StudentDTO.java" afterPath="$PROJECT_DIR$/src/shared/StudentDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shared/StudyDTO.java" afterPath="$PROJECT_DIR$/src/shared/StudyDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shared/TeacherDTO.java" afterPath="$PROJECT_DIR$/src/shared/TeacherDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shared/UserDTO.java" afterPath="$PROJECT_DIR$/src/shared/UserDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/TUIAdminMenu.java" afterPath="$PROJECT_DIR$/src/view/TUIAdminMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/TUIMainMenu.java" afterPath="$PROJECT_DIR$/src/view/TUIMainMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/endpoints/StudentEndpoint.java" afterPath="$PROJECT_DIR$/src/view/endpoints/StudentEndpoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/endpoints/TeacherEndpoint.java" afterPath="$PROJECT_DIR$/src/view/endpoints/TeacherEndpoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/endpoints/UserEndpoint.java" afterPath="$PROJECT_DIR$/src/view/endpoints/UserEndpoint.java" />
     </list>
     <ignored path="Undervisningsevaluering _server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,282 +52,7 @@
     <favorites_list name="Undervisningsevaluering _server" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TeacherEndpoint.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/endpoints/TeacherEndpoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Run.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Run.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JAVA/Run" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/Run">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>Run</OriginalElement>
-              <nodes>
-                <node x="1355.1383272800645" y="551.0">shared.ReviewDTO</node>
-                <node x="602.2992584745762" y="1643.0">logic.MainController</node>
-                <node x="595.5049939467311" y="661.0">shared.StudentDTO</node>
-                <node x="722.0" y="1974.0">logic.ConfigLoader</node>
-                <node x="975.2549939467312" y="617.0">shared.StudyDTO</node>
-                <node x="2044.1799939467314" y="1274.0">view.endpoints.UserEndpoint</node>
-                <node x="0.0" y="1974.0">service.DBWrapper</node>
-                <node x="813.0049939467312" y="1241.0">logic.AdminController</node>
-                <node x="399.330704059358" y="143.0">shared.UserDTO</node>
-                <node x="107.83705357142867" y="1274.0">security.Digester</node>
-                <node x="447.83705357142856" y="1001.0">view.TUIAdminMenu</node>
-                <node x="1987.2633272800647" y="968.0">logic.CBSParser</node>
-                <node x="1506.9216606133978" y="1632.0">view.endpoints.StudentEndpoint</node>
-                <node x="1896.3883272800647" y="595.0">shared.CourseDTO</node>
-                <node x="305.06749394673113" y="683.0">shared.AdminDTO</node>
-                <node x="573.1742584745762" y="1777.0">view.TUIMainMenu</node>
-                <node x="392.0" y="1974.0">dal.MYSQLDriver</node>
-                <node x="282.17946680790953" y="1878.0">Run</node>
-                <node x="1364.2133272800647" y="946.0">logic.UserController</node>
-                <node x="1731.2633272800645" y="979.0">shared.TeacherDTO</node>
-                <node x="2005.9299939467314" y="1632.0">view.endpoints.TeacherEndpoint</node>
-                <node x="1699.1799939467312" y="1307.0">logic.TeacherController</node>
-                <node x="1274.0049939467312" y="1340.0">logic.StudentController</node>
-                <node x="1008.0" y="1974.0">shared.Logging</node>
-                <node x="1769.5758272800647" y="0.0">shared.LectureDTO</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="logic.AdminController" target="logic.UserController">
-                  <point x="80.18181818181824" y="-135.5" />
-                  <point x="1113.6868121285495" y="1191.0" />
-                  <point x="1389.7966606133978" y="1191.0" />
-                  <point x="-127.91666666666674" y="102.5" />
-                </edge>
-                <edge source="view.endpoints.StudentEndpoint" target="view.endpoints.UserEndpoint">
-                  <point x="90.33333333333326" y="-47.5" />
-                  <point x="1732.7549939467312" y="1612.0" />
-                  <point x="2137.6799939467314" y="1612.0" />
-                  <point x="-93.5" y="102.5" />
-                </edge>
-                <edge source="view.endpoints.TeacherEndpoint" target="view.endpoints.UserEndpoint">
-                  <point x="70.5" y="-47.5" />
-                  <point x="2217.4299939467314" y="1612.0" />
-                  <point x="2324.6799939467314" y="1612.0" />
-                  <point x="93.5" y="102.5" />
-                </edge>
-                <edge source="shared.TeacherDTO" target="shared.UserDTO">
-                  <point x="-59.0" y="-69.5" />
-                  <point x="1790.2633272800645" y="511.0" />
-                  <point x="634.2592754879295" y="511.0" />
-                  <point x="108.42857142857144" y="102.5" />
-                </edge>
-                <edge source="shared.StudentDTO" target="shared.UserDTO">
-                  <point x="0.0" y="-47.5" />
-                  <point x="693.5049939467311" y="531.0" />
-                  <point x="561.9735612022151" y="531.0" />
-                  <point x="36.14285714285711" y="102.5" />
-                </edge>
-                <edge source="logic.TeacherController" target="logic.UserController">
-                  <point x="-81.0" y="-69.5" />
-                  <point x="1780.1799939467312" y="1181.0" />
-                  <point x="1594.4633272800647" y="1181.0" />
-                  <point x="76.75" y="102.5" />
-                </edge>
-                <edge source="shared.AdminDTO" target="shared.UserDTO">
-                  <point x="0.0" y="-25.5" />
-                  <point x="380.56749394673113" y="531.0" />
-                  <point x="489.68784691650086" y="531.0" />
-                  <point x="-36.14285714285717" y="102.5" />
-                </edge>
-                <edge source="logic.StudentController" target="logic.UserController">
-                  <point x="65.5" y="-36.5" />
-                  <point x="1470.5049939467312" y="1201.0" />
-                  <point x="1492.1299939467312" y="1201.0" />
-                  <point x="-25.583333333333258" y="102.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.7699838717184374" x="379.0" y="129.0" />
-              <SelectedNodes>
-                <node>Run</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudyDTO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shared/StudyDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeacherDTO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shared/TeacherDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Class diagram.uml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/Class diagram.uml">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>Run</OriginalElement>
-              <nodes>
-                <node x="1355.1383272800647" y="551.0">shared.ReviewDTO</node>
-                <node x="602.2992584745764" y="1643.0">logic.MainController</node>
-                <node x="595.5049939467311" y="661.0">shared.StudentDTO</node>
-                <node x="722.0" y="1974.0">logic.ConfigLoader</node>
-                <node x="975.2549939467312" y="617.0">shared.StudyDTO</node>
-                <node x="2044.1799939467312" y="1274.0">view.endpoints.UserEndpoint</node>
-                <node x="0.0" y="1974.0">service.DBWrapper</node>
-                <node x="813.0049939467311" y="1241.0">logic.AdminController</node>
-                <node x="399.3307040593579" y="143.0">shared.UserDTO</node>
-                <node x="107.83705357142867" y="1274.0">security.Digester</node>
-                <node x="447.8370535714286" y="1001.0">view.TUIAdminMenu</node>
-                <node x="1987.2633272800647" y="968.0">logic.CBSParser</node>
-                <node x="1506.921660613398" y="1632.0">view.endpoints.StudentEndpoint</node>
-                <node x="1896.3883272800647" y="595.0">shared.CourseDTO</node>
-                <node x="305.06749394673113" y="683.0">shared.AdminDTO</node>
-                <node x="573.1742584745764" y="1777.0">view.TUIMainMenu</node>
-                <node x="392.0" y="1974.0">dal.MYSQLDriver</node>
-                <node x="282.17946680790965" y="1878.0">Run</node>
-                <node x="1364.2133272800645" y="946.0">logic.UserController</node>
-                <node x="1731.2633272800647" y="979.0">shared.TeacherDTO</node>
-                <node x="2005.9299939467312" y="1632.0">view.endpoints.TeacherEndpoint</node>
-                <node x="1699.1799939467314" y="1307.0">logic.TeacherController</node>
-                <node x="1274.0049939467312" y="1340.0">logic.StudentController</node>
-                <node x="1008.0" y="1974.0">shared.Logging</node>
-                <node x="1769.5758272800647" y="0.0">shared.LectureDTO</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="logic.AdminController" target="logic.UserController">
-                  <point x="80.18181818181813" y="-135.5" />
-                  <point x="1113.6868121285493" y="1191.0" />
-                  <point x="1389.7966606133978" y="1191.0" />
-                  <point x="-127.91666666666663" y="102.5" />
-                </edge>
-                <edge source="view.endpoints.StudentEndpoint" target="view.endpoints.UserEndpoint">
-                  <point x="90.33333333333337" y="-47.5" />
-                  <point x="1732.7549939467312" y="1612.0" />
-                  <point x="2137.679993946731" y="1612.0" />
-                  <point x="-93.5" y="102.5" />
-                </edge>
-                <edge source="view.endpoints.TeacherEndpoint" target="view.endpoints.UserEndpoint">
-                  <point x="70.49999999999989" y="-47.5" />
-                  <point x="2217.429993946731" y="1612.0" />
-                  <point x="2324.679993946731" y="1612.0" />
-                  <point x="93.49999999999989" y="102.5" />
-                </edge>
-                <edge source="shared.TeacherDTO" target="shared.UserDTO">
-                  <point x="-59.0" y="-69.5" />
-                  <point x="1790.2633272800647" y="511.0" />
-                  <point x="634.2592754879294" y="511.0" />
-                  <point x="108.42857142857144" y="102.5" />
-                </edge>
-                <edge source="shared.StudentDTO" target="shared.UserDTO">
-                  <point x="0.0" y="-47.5" />
-                  <point x="693.5049939467311" y="531.0" />
-                  <point x="561.973561202215" y="531.0" />
-                  <point x="36.14285714285714" y="102.5" />
-                </edge>
-                <edge source="logic.TeacherController" target="logic.UserController">
-                  <point x="-81.0" y="-69.5" />
-                  <point x="1780.1799939467314" y="1181.0" />
-                  <point x="1594.4633272800645" y="1181.0" />
-                  <point x="76.75" y="102.5" />
-                </edge>
-                <edge source="shared.AdminDTO" target="shared.UserDTO">
-                  <point x="0.0" y="-25.5" />
-                  <point x="380.56749394673113" y="531.0" />
-                  <point x="489.6878469165008" y="531.0" />
-                  <point x="-36.14285714285714" y="102.5" />
-                </edge>
-                <edge source="logic.StudentController" target="logic.UserController">
-                  <point x="65.5" y="-36.5" />
-                  <point x="1470.5049939467312" y="1201.0" />
-                  <point x="1492.1299939467312" y="1201.0" />
-                  <point x="-25.58333333333337" y="102.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.3808649606105249" x="760.1446045739704" y="1497.0" />
-              <SelectedNodes>
-                <node>Run</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeacherController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/logic/TeacherController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TUIAdminMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/TUIAdminMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="70" column="40" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/logic/AdminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3165">
-              <caret line="220" column="71" selection-start-line="220" selection-start-column="71" selection-end-line="220" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -322,17 +72,32 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/service/DBWrapper.java" />
-        <option value="$PROJECT_DIR$/src/logic/StudentController.java" />
-        <option value="$PROJECT_DIR$/src/view/TUIMainMenu.java" />
         <option value="$PROJECT_DIR$/config.json" />
         <option value="$PROJECT_DIR$/src/view/endpoints/UserEndpoint.java" />
         <option value="$PROJECT_DIR$/src/view/endpoints/StudentEndpoint.java" />
-        <option value="$PROJECT_DIR$/src/logic/UserController.java" />
-        <option value="$PROJECT_DIR$/src/Run.java" />
         <option value="$PROJECT_DIR$/src/view/endpoints/TeacherEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/logic/StudentController.java" />
         <option value="$PROJECT_DIR$/src/logic/TeacherController.java" />
+        <option value="$PROJECT_DIR$/src/logic/UserController.java" />
+        <option value="$PROJECT_DIR$/src/logic/ConfigLoader.java" />
+        <option value="$PROJECT_DIR$/src/logic/CBSParser.java" />
         <option value="$PROJECT_DIR$/src/logic/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/logic/MainController.java" />
+        <option value="$PROJECT_DIR$/src/dal/MYSQLDriver.java" />
+        <option value="$PROJECT_DIR$/src/security/Digester.java" />
+        <option value="$PROJECT_DIR$/src/service/DBWrapper.java" />
+        <option value="$PROJECT_DIR$/src/shared/AdminDTO.java" />
+        <option value="$PROJECT_DIR$/src/shared/CourseDTO.java" />
+        <option value="$PROJECT_DIR$/src/shared/LectureDTO.java" />
+        <option value="$PROJECT_DIR$/src/shared/Logging.java" />
+        <option value="$PROJECT_DIR$/src/shared/ReviewDTO.java" />
+        <option value="$PROJECT_DIR$/src/shared/StudentDTO.java" />
+        <option value="$PROJECT_DIR$/src/shared/StudyDTO.java" />
+        <option value="$PROJECT_DIR$/src/shared/TeacherDTO.java" />
+        <option value="$PROJECT_DIR$/src/shared/UserDTO.java" />
+        <option value="$PROJECT_DIR$/src/view/TUIAdminMenu.java" />
+        <option value="$PROJECT_DIR$/src/view/TUIMainMenu.java" />
+        <option value="$PROJECT_DIR$/src/Run.java" />
       </list>
     </option>
   </component>
@@ -378,8 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -530,49 +294,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Undervisningsevaluering _server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Undervisningsevaluering _server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Undervisningsevaluering _server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Undervisningsevaluering _server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1077,7 +806,9 @@
       <workItem from="1480409453664" duration="5061000" />
       <workItem from="1480500301475" duration="1260000" />
       <workItem from="1480504664067" duration="2086000" />
-      <workItem from="1480844382295" duration="71000" />
+      <workItem from="1480844382295" duration="2511000" />
+      <workItem from="1480925514486" duration="3537000" />
+      <workItem from="1480930927448" duration="39000" />
     </task>
     <task id="LOCAL-00001" summary="Server sender krypteret data tilbage, men modtager ikke krypteret.">
       <created>1479976043728</created>
@@ -1135,30 +866,37 @@
       <option name="project" value="LOCAL" />
       <updated>1480844419763</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Klasse diagram med png fil">
+      <created>1480844458772</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1480844458772</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54409000" />
+    <option name="totallyTimeSpent" value="60425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934928" sideWeight="0.50625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UML Diagrams" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.490625" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Graphical Navigator" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1172,7 +910,7 @@
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934928" sideWeight="0.496875" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1211,68 +949,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/view/TUIAdminMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logic/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="161" column="56" selection-start-line="161" selection-start-column="56" selection-end-line="161" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/endpoints/StudentEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logic/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/DBWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3420">
-          <caret line="235" column="5" selection-start-line="235" selection-start-column="5" selection-end-line="235" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logic/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="144" column="33" selection-start-line="144" selection-start-column="33" selection-end-line="144" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/endpoints/UserEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1302,7 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2280">
           <caret line="161" column="56" selection-start-line="161" selection-start-column="56" selection-end-line="161" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1332,9 +1012,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1485">
           <caret line="114" column="32" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1342,9 +1020,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1545">
           <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1390,9 +1066,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1485">
           <caret line="114" column="32" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1400,9 +1074,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1419,48 +1091,6 @@
         <state relative-caret-position="30">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/StudentDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/ReviewDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/DBWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3420">
-          <caret line="235" column="5" selection-start-line="235" selection-start-column="5" selection-end-line="235" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logic/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1935">
-          <caret line="138" column="36" selection-start-line="138" selection-start-column="36" selection-end-line="138" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logic/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/TUIMainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1471,89 +1101,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/CourseDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#971#972#0" expanded="false" />
-            <element signature="e#1000#1001#0" expanded="false" />
-            <element signature="e#1255#1256#0" expanded="false" />
-            <element signature="e#1291#1292#0" expanded="false" />
-            <element signature="e#1320#1321#0" expanded="false" />
-            <element signature="e#1345#1346#0" expanded="false" />
-            <element signature="e#1381#1382#0" expanded="false" />
-            <element signature="e#1409#1410#0" expanded="false" />
-            <element signature="e#1447#1448#0" expanded="false" />
-            <element signature="e#1481#1482#0" expanded="false" />
-            <element signature="e#1535#1536#0" expanded="false" />
-            <element signature="e#1581#1582#0" expanded="false" />
-            <element signature="e#1612#1613#0" expanded="false" />
-            <element signature="e#1639#1640#0" expanded="false" />
-            <element signature="e#1679#1680#0" expanded="false" />
-            <element signature="e#1711#1712#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logic/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3165">
-          <caret line="227" column="49" selection-start-line="227" selection-start-column="49" selection-end-line="227" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dal/MYSQLDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/ER_diagram.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/endpoints/UserEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="75" column="52" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/endpoints/StudentEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logic/TeacherController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/TUIAdminMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="70" column="40" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="uml://JAVA/logic.AdminController">
@@ -1610,22 +1160,6 @@
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logic/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3165">
-          <caret line="220" column="71" selection-start-line="220" selection-start-column="71" selection-end-line="220" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1693,17 +1227,17 @@
               <point x="561.9735612022151" y="531.0" />
               <point x="36.14285714285711" y="102.5" />
             </edge>
-            <edge source="logic.TeacherController" target="logic.UserController">
-              <point x="-81.0" y="-69.5" />
-              <point x="1780.1799939467312" y="1181.0" />
-              <point x="1594.4633272800647" y="1181.0" />
-              <point x="76.75" y="102.5" />
-            </edge>
             <edge source="shared.AdminDTO" target="shared.UserDTO">
               <point x="0.0" y="-25.5" />
               <point x="380.56749394673113" y="531.0" />
               <point x="489.68784691650086" y="531.0" />
               <point x="-36.14285714285717" y="102.5" />
+            </edge>
+            <edge source="logic.TeacherController" target="logic.UserController">
+              <point x="-81.0" y="-69.5" />
+              <point x="1780.1799939467312" y="1181.0" />
+              <point x="1594.4633272800647" y="1181.0" />
+              <point x="76.75" y="102.5" />
             </edge>
             <edge source="logic.StudentController" target="logic.UserController">
               <point x="65.5" y="-36.5" />
@@ -1712,7 +1246,7 @@
               <point x="-25.583333333333258" y="102.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.7699838717184374" x="379.0" y="129.0" />
+          <settings layout="Hierarchic Group" zoom="0.7699838717184374" x="691.0" y="110.0" />
           <SelectedNodes>
             <node>Run</node>
           </SelectedNodes>
@@ -1721,22 +1255,6 @@
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/StudyDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/TeacherDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1804,17 +1322,17 @@
               <point x="561.973561202215" y="531.0" />
               <point x="36.14285714285714" y="102.5" />
             </edge>
-            <edge source="logic.TeacherController" target="logic.UserController">
-              <point x="-81.0" y="-69.5" />
-              <point x="1780.1799939467314" y="1181.0" />
-              <point x="1594.4633272800645" y="1181.0" />
-              <point x="76.75" y="102.5" />
-            </edge>
             <edge source="shared.AdminDTO" target="shared.UserDTO">
               <point x="0.0" y="-25.5" />
               <point x="380.56749394673113" y="531.0" />
               <point x="489.6878469165008" y="531.0" />
               <point x="-36.14285714285714" y="102.5" />
+            </edge>
+            <edge source="logic.TeacherController" target="logic.UserController">
+              <point x="-81.0" y="-69.5" />
+              <point x="1780.1799939467314" y="1181.0" />
+              <point x="1594.4633272800645" y="1181.0" />
+              <point x="76.75" y="102.5" />
             </edge>
             <edge source="logic.StudentController" target="logic.UserController">
               <point x="65.5" y="-36.5" />
@@ -1823,7 +1341,7 @@
               <point x="-25.58333333333337" y="102.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.3808649606105249" x="760.1446045739704" y="1497.0" />
+          <settings layout="Hierarchic Group" zoom="0.3808649606105249" x="1390.0" y="1458.0" />
           <SelectedNodes>
             <node>Run</node>
           </SelectedNodes>
@@ -1835,18 +1353,206 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/endpoints/TeacherEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/endpoints/StudentEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/endpoints/UserEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="175" column="95" selection-start-line="175" selection-start-column="95" selection-end-line="175" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="941">
+          <caret line="253" column="48" selection-start-line="253" selection-start-column="48" selection-end-line="253" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/TeacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-885">
+          <caret line="13" column="91" selection-start-line="13" selection-start-column="91" selection-end-line="13" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/ConfigLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="15" column="107" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="91" selection-start-line="12" selection-start-column="91" selection-end-line="12" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/endpoints/TeacherEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" column="95" selection-start-line="20" selection-start-column="95" selection-end-line="20" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/CBSParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="107" selection-start-line="18" selection-start-column="107" selection-end-line="18" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="107" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dal/MYSQLDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="107" selection-start-line="13" selection-start-column="107" selection-end-line="13" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/security/Digester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/DBWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="107" selection-start-line="13" selection-start-column="107" selection-end-line="13" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/AdminDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="107" selection-start-line="4" selection-start-column="107" selection-end-line="4" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/CourseDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="107" selection-start-line="7" selection-start-column="107" selection-end-line="7" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/LectureDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="107" selection-start-line="9" selection-start-column="107" selection-end-line="9" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/Logging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="107" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/ReviewDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="109" selection-start-line="4" selection-start-column="109" selection-end-line="4" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/StudentDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="107" selection-start-line="4" selection-start-column="107" selection-end-line="4" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/StudyDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="107" selection-start-line="6" selection-start-column="107" selection-end-line="6" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/TeacherDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="107" selection-start-line="6" selection-start-column="107" selection-end-line="6" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/UserDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="107" selection-start-line="7" selection-start-column="107" selection-end-line="7" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-214">
+          <caret line="19" column="107" selection-start-line="19" selection-start-column="107" selection-end-line="19" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/TUIMainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="107" selection-start-line="15" selection-start-column="107" selection-end-line="15" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/TUIAdminMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="107" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
           <folding />
         </state>
       </provider>

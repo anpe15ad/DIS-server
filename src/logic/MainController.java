@@ -12,6 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * hele klassen er hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
  * MainControlleren er den første controlleren der bliver kørt.
  */
 
@@ -122,7 +123,7 @@ public class MainController {
                 String type = result.getString("type");
 
                 /**
-                 * En if statement der validere om brugeren der logger in er af typen admin eller kan der ikke logges ind i TUI.
+                 * En if statement der validere om brugeren der logger ind er af typen admin eller kan der ikke logges ind i TUI.
                  */
                 if (type.equals("admin")) {
                     AdminDTO admin = new AdminDTO();

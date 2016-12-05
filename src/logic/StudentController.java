@@ -10,6 +10,7 @@ import java.util.Map;
 
 
 /**
+ * hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
  * StudentControlleren bruges for metoder som specifikt kun den studerende kan.
  * Derudover har studerende adgang til UserController gennem nedarvning.
  */
@@ -30,6 +31,7 @@ public class StudentController extends UserController {
 */
 
     /**
+     * hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
      * Metode der initiere currentstudent
      * @param currentStudent
      */
@@ -39,6 +41,7 @@ public class StudentController extends UserController {
 
 
     /**
+     * hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
      * Metoden der sætter parametre for SQL statementet til at tilføje et review.
      * @param review DTO'et overfører værdierne til metoden, som er hentet fra klienten.
      * @return

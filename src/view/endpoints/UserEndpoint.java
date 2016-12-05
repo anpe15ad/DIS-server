@@ -13,13 +13,16 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 import java.util.ArrayList;
 
+/**
+ * Denne klasse er alle endpoints for brugere der skal have adgang til alle metoder.
+ */
 
 @Path("/api")
 public class UserEndpoint {
 
     /**
      * En metode til at hente lektioner for et enkelt kursus i form af en JSON String.
-     *
+     * hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
      * @param code Fagkoden på det kursus man ønsker at hente.
      * @return En JSON String
      */
@@ -42,6 +45,11 @@ public class UserEndpoint {
         }
     }
 
+    /**
+     * Dette endpoint henter hvilket studie en bruger er tilknyttet.
+     * @param shortname forkortelsen for det stud
+     * @return returnere en ArrayListe af
+     */
     @GET
     @Path("/study/{shortname}")
     public Response getStudy(@PathParam("shortname") String shortname) {
@@ -61,7 +69,7 @@ public class UserEndpoint {
 
     /**
      * En metode til at hente de kurser en bruger er tilmeldt.
-     *
+     * hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
      * @param userId Id'et på den bruger man ønsker at hente kurser for.
      * @return De givne kurser i form af en JSON String.
      */
@@ -83,6 +91,7 @@ public class UserEndpoint {
     }
 
     /**
+     * hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
      * End point for at hente de reviews der hører til et lecture
      * @param lectureId id'et er det som review listen er hentet udfra.
      * @return retunere enten succes med reviewDTO eller fejl med en meddelse om fejlen
@@ -126,6 +135,7 @@ public class UserEndpoint {
     }
 
     /**
+     * hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
      * Login metode til at logge brugere ind.
      * @param data tager en streng af data som er mail og password
      * @return returnere et objekt af UserDTO og status kode, eller en fejlmeddelse ved fejl.
@@ -150,6 +160,7 @@ public class UserEndpoint {
     }
 
     /**
+     * hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
      * Metode kaldt i alle endpoint for at sende en fejlstatus og meddelse.
      * @param status
      * @param message
@@ -162,6 +173,7 @@ public class UserEndpoint {
     }
 
     /**
+     * hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
      * Metode kaldt i alle endpoints for at sende en status og et objekt af den data der skal bruges i de enkelte endpoints.
      * @param status
      * @param data

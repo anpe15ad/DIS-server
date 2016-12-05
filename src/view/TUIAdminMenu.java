@@ -10,6 +10,7 @@ import java.util.Scanner;
 
 /**
  * Her ses TUIAdminMenuen, som er admin's text-baseret user interface menu.
+ * Hele klassen er hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
  **/
 public class TUIAdminMenu {
 

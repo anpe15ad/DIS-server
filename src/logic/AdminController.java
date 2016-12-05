@@ -10,6 +10,7 @@ import java.sql.SQLException;
 import java.util.*;
 
 /**
+ * Hele klassen er hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
  * Admin klassen er logikken bag administratorens funktioner, denne klasse hører sammen med TUIAdminMenu,
  * som er UI siden af klassen.
  **/

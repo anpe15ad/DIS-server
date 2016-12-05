@@ -5,6 +5,7 @@ import com.google.gson.annotations.SerializedName;
 
 /**
  * CourseDTO klassen der opretter getter og setters for alle de variable der skal bruges for en user.
+ * Hele klassen er hentet fra vores fælles server: https://github.com/emilstepanian/Undervisningsevaluering
  */
 public class CourseDTO {
 
